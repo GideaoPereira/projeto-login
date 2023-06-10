@@ -16,14 +16,14 @@ body, html {
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
-    border: 1px solid black;
+    
 }
 
 main {
     position:relative;
     height: 100vh;
     width: 100vw;
-    border: 1px solid yellow;
+   
 }
 
 section#login {
@@ -33,13 +33,15 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-
+   background-color: white;
    width: 250px;
    height: 500px;
    border-radius: 20px;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
 
-    background-color: white;
+   transition: width .3s, height .3s;
+   transition-timing-function: ease;
+    
 }
 
 section#login > div#imagem {
